@@ -1,8 +1,7 @@
 # AdvancedNLPUTS2025
 Detecting AI-Generated Text with Transformer Fine-Tuning
 This project explores multiple transformer-based approaches for detecting AI-generated
-text, integrating fine-tuning and model distillation within a unified NLP pipeline. Us-
-ing the public AI vs Human Text dataset, which contains over 480,000 labeled samples, we
+text, integrating fine-tuning and model distillation within a unified NLP pipeline. Using the public AI vs Human Text dataset, which contains over 480,000 labeled samples, we
 train and evaluate three complementary architectures: MiniDeBERTa (microsoft/deberta-
 v3-small), DistilBERT (distilbert-base-uncased), and a full BERT-base (bert-base-uncased)
 model whose knowledge is subsequently distilled into a lightweight student network. The
